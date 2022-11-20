@@ -13,10 +13,7 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone
-    --single-branch
-    https://github.com/Saviour1001/nextjs-fevm
-    ${repoName}`;
+const gitCheckoutCommand = `git clone https://github.com/Saviour1001/nextjs-fevm ${repoName}`;
 
 const installCommand = `cd ${repoName} && npm install`;
 
