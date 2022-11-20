@@ -1,0 +1,42 @@
+{
+  "name": "nextjs-fevm-dapp-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@glif/filecoin-address": "^2.0.18",
+    "@glif/filecoin-message": "^2.0.20",
+    "@glif/filecoin-number": "^2.0.5",
+    "@glif/filecoin-rpc-client": "^2.0.8",
+    "@next/font": "^13.0.3",
+    "@web3auth/base": "^3.0.0",
+    "@web3auth/metamask-adapter": "^3.0.4",
+    "@web3auth/modal": "^3.0.3",
+    "bignumber.js": "^9.1.0",
+    "ethers": "^5.7.2",
+    "i18n": "^0.15.1",
+    "next": "^12.3.1",
+    "next-progress": "^2.2.0",
+    "react": "18",
+    "react-background-video-player": "^1.1.8",
+    "react-dom": "18",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/elliptic": "^6.4.14",
+    "@types/node": "18",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.8.4"
+  }
+}
